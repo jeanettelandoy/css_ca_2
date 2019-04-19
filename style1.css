@@ -100,4 +100,9 @@ footer {
   background-color: #07db61 !important;
   color: #000000 !important; }
 
+.box:hover {
+  cursor: pointer;
+  border-color: orange;
+  background-color: #fdf6ec; }
+
 /*# sourceMappingURL=style1.css.map */

@@ -1,0 +1,7 @@
+@import "variables.scss";
+
+.box:hover {
+  cursor: pointer;
+  border-color: orange;
+  background-color: $fargelys;
+}

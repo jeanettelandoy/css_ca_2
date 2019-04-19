@@ -1,8 +1,6 @@
 /* Sass Document */
-$fargesvart: #000000;
-$fargehvit: #ffffff;
-$fargeblue: #00aeef;
-$fargegreen: #07db61;
+
+@import "variables.scss";
 
 .container {
   text-align: center;
