@@ -1,0 +1,56 @@
+/* Sass Document */
+@import "mixins.scss";
+
+$fargesvart: #000000;
+$fargehvit: #ffffff;
+$fargeblue: #00aeef;
+$fargegreen: #07db61;
+$fontmain: "Open Sans", normal;
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800");
+
+body {
+  font-family: $fontmain;
+}
+
+h1 {
+  font-size: 36px;
+  color: $fargesvart;
+  @include font-size(36px);
+}
+
+a:link {
+  color: $fargehvit;
+}
+a:hover {
+  color: $fargesvart;
+}
+.row {
+  .col-md-4 {
+    a:hover {
+      color: $fargeblue !important;
+    }
+  }
+}
+
+/* contact-part */
+
+.__cnt {
+  background-color: $fargeblue;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 500px !important;
+  padding-bottom: 40px;
+  label {
+    color: $fargehvit;
+    float: left;
+  }
+  .knappen {
+    background-color: $fargegreen !important;
+    float: right !important;
+  }
+  .knappen:hover {
+    background-color: $fargehvit !important;
+    color: $fargesvart !important;
+  }
+}

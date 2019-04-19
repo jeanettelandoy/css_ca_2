@@ -1,0 +1,55 @@
+/* Sass Document */
+
+$welcometekst: 48px;
+$fargehvit: #ffffff;
+$fargeblue: #00aeef;
+
+.navbar-default {
+  background-color: $fargeblue;
+
+  .navbar-nav {
+    float: right;
+    li {
+      a {
+        color: $fargehvit !important;
+      }
+    }
+  }
+  .navbar-header {
+    a {
+      color: $fargehvit !important;
+    }
+  }
+}
+.container {
+  .carousel {
+    .carousel-inner {
+      .item {
+        img {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+.row {
+  background-color: $fargehvit;
+  padding: 20px;
+
+  .col-md-8 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: $fargeblue;
+    padding: 5px;
+
+    .__htekst {
+      font-size: $welcometekst;
+    }
+  }
+  .col-md-4 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: $fargeblue;
+    padding: 5px;
+  }
+}
